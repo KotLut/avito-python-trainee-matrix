@@ -9,6 +9,6 @@
    - Базовая обработка сетевых ошибок.
    - Type hints и тесты.
 
-   ## Как запустить
-   1. Установить зависимости: `pip install aiohttp pytest`
-   2. Запустить тесты: `pytest test_matrix.py`
+  ## Как запустить и проверить
+1. Установите зависимости: `pip install -r requirements.txt`
+2. Запустите тесты: `pytest tests/ -v`
